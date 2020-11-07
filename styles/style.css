@@ -1,0 +1,265 @@
+
+@media screen and (max-device-width: 468px) {
+  
+.cards {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.card {
+    margin:0 15px 15px 0;
+    
+}
+
+}
+
+
+
+body {
+    background-color: #eee;
+    font-family: 'Piazzolla', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.features-svg {
+    width:70px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* sticky header */
+#header {
+    position: sticky;
+    background-color: #eee;
+   /* position: sticky;*/
+    top:0;
+    min-height: 75px;;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.header-txt {
+    padding-left: 10px;
+    
+}
+
+/* testing purpose */
+#nav-bar {
+    
+    align-items: center;
+    display: flex;
+    
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    
+    
+}
+
+.navigation li {
+    
+    margin-left: 20px;
+    
+}
+
+.navigation li:last-child {
+    margin-right: 20px;
+}
+
+ul.navigation {
+    
+    padding: 0;
+   
+}
+/* Section #1 */
+
+.subscription-basic-form {
+    
+    padding-bottom: 20px;
+    
+}
+
+.subscription-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    margin-bottom: 10px;
+    width: 300px;
+    min-height: 25px;
+
+}
+
+.btn {
+    width: 120px;
+    min-height: 30px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    background-color: #0461c6;
+    border-style: none;
+    color: #fff;
+    
+    
+}
+
+.btn-list {
+    align-self: center; 
+}
+
+.features {
+   
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+.features-control {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.video-youtube {
+    justify-content: center;
+    display: flex;
+    margin: 35px 0;
+}
+
+.features-svg {
+    margin: 0 40px;
+}
+
+.features-control-txt {
+    max-width: 700px;
+}
+
+.cards {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card-list li {
+    padding-bottom: 5px;
+}
+
+.card-plan > .card-title-plan-txt {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #ddd;
+
+}
+
+.card-plan {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #000;
+    width: calc(100%/3);
+    display: flex;
+    /*align-content: center;*/
+    flex-direction: column;
+    /*align-items: center;*/
+    
+}
+
+.card:not(:last-child) {
+    margin-right: 15px;
+}
+
+.price {
+    margin:10px 0;
+}
+
+h4 {
+    font-size: large;
+    text-transform: uppercase;
+    
+}
+
+.footer {
+    background-color: #ddd;
+    
+    padding-top: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    padding-bottom: 10px;
+   
+}
+
+.footer-links a {
+    padding-right: 10px;
+   
+    
+}
+
+.footer-text {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+
